@@ -1,5 +1,4 @@
 import random
-import math
 class Character:
     def __init__(self):
         self.strength = self.ability()
@@ -20,4 +19,4 @@ class Character:
         return threeHighest
 
 def modifier(amt):
-    return math.floor((amt - 10)/2) 
+    return (amt - 10)//2 
