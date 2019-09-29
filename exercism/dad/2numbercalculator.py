@@ -1,0 +1,22 @@
+print("please enter number")
+input1 = input()
+int_input1 = int(input1)
+print("please enter another number")
+input2 = input()
+int_input2 = int(input2)
+
+
+print(f"{input1} + {input2} = {int_input1+int_input2}")
+
+addsentance = str(int_input1) + " plus " + str(int_input2) + " equels " + str(int_input1 + int_input2)
+subtractsentance = str(int_input1) + " minus " + str(int_input2) + " equels " + str(int_input1 - int_input2)
+dividesentance =  str(int_input1) + " divided by " + str(int_input2) + " equels " + str(int_input1 / int_input2)
+multiplysentance = str(int_input1) + " muliplyed by " + str(int_input2) + " equels " + str(int_input1 * int_input2)
+powersentance =  str(int_input1) + " to the power of  " + str(int_input2) + " equels " + str(int_input1 ** int_input2)
+modsentance = "the remendier when " + str(int_input1) + " is divided by " + str(int_input2) + " is " + str(int_input1 % int_input2)
+print(addsentance)
+print(subtractsentance)
+print(dividesentance)
+print(multiplysentance)
+print(powersentance)
+print(modsentance)
